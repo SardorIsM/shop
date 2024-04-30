@@ -1,1 +1,26 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block main %}
+  {% include 'store/components/_billboard.html' %}
+  {% include 'store/components/_company-services.html' %}
+  {% include 'store/components/_mobile-products.html' %}
+  {% include 'store/components/_smart-watches.html' %}
+  {% include 'store/components/_yearly-sale.html' %}
+  {% include 'store/components/_latest-blog.html' %}
+  {% include 'store/components/_testimonials.html' %}
+  {% include 'store/components/_subscribe.html' %}
+  {% include 'store/components/_instagram.html' %}
+
+  
+  
+  
+  
+  
+  
+  
+  
+{% endblock %}
